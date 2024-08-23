@@ -36,6 +36,3 @@ Then by analyzing the data from each cluster, we define the titles: Happy, Sad, 
 
 ##### Assigning Decades
 Here we group music from different decades (1950's, 1960's, 1970's, 1980's, 1990's, 2000's, 2010's and 2020's).  
-
-### Modeling Notebook
-This notebook was simply used to develop the filtering function.  
