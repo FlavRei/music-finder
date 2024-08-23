@@ -11,4 +11,6 @@ def clean_data(df):
     df = df[df['track_album_release_year'] != 0]
     df = df[df['tempo'] != 0]
     df = df.drop_duplicates(subset=['track_id'])
+    df['playlist_genre'] = df['playlist_genre'].str.title()
+    df['playlist_subgenre'] = df['playlist_subgenre'].str.title()
     return df

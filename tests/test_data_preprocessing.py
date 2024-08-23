@@ -14,6 +14,8 @@ def test_clean_data():
         'track_album_release_date': ['2019-01-01', '2020-02-02', '2021-03-03'],
         'track_popularity': [50, 60, 70],
         'playlist_name': ['playlist1', 'playlist2', 'playlist3'],
+        'playlist_genre': ['genre1', 'genre2', 'genre3'],
+        'playlist_subgenre': ['subgenre1', 'subgenre2', 'subgenre3'],
         'track_id': ['id1', 'id2', 'id3'],
         'tempo': [120, 130, 0]
     }
@@ -24,3 +26,5 @@ def test_clean_data():
     assert 'playlist_name' not in df.columns
     assert df.shape[0] == 2 
     assert df['track_album_release_year'].dtype == int
+    assert df['playlist_genre'].str.istitle().all()
+    assert df['playlist_subgenre'].str.istitle().all()
