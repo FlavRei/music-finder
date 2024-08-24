@@ -1,6 +1,9 @@
 # How to use the application
-At the root of the project, run the following command:  
-> poetry run streamlit run app/app.py
+Build the Docker image:
+> docker build -t music-finder .
+
+Execute Docker container:
+> docker run -p 8501:8501 music-finder
 
 Then go to the following link: http://localhost:8501
 
