@@ -1,11 +1,6 @@
 # How to use the application
-Build the Docker image:
-> docker build -t music-finder .
-
-Execute Docker container:
-> docker run -p 8501:8501 music-finder
-
-Then go to the following link: http://localhost:8501
+This application is deployed on Render.
+Go to the following link: https://music-finder-g9mj.onrender.com
 
 Now you can use the application by manipulating the filters on the left of the page.  
 
