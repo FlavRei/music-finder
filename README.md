@@ -1,6 +1,5 @@
 # How to use the application
-This application is deployed on Render.
-Go to the following link: https://music-finder-g9mj.onrender.com
+This application is deployed on Streamlit Cloud. Go to the following link: https://flavrei-music-finder.streamlit.app/  
 
 Now you can use the application by manipulating the filters on the left of the page.  
 
